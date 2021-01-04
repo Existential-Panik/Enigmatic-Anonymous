@@ -1,0 +1,91 @@
+
+body{
+    background-color: seashell;
+    background-repeat: repeat-x;
+    background-size: 100% 500px;
+}
+
+#navbar ul{
+    list-style-type: none;
+    height: 45px;
+    width: 100%;
+    margin-bottom: 25px;
+}
+li{
+    float: right;
+}
+#navbar li{
+    display: flex;
+    text-decoration: none;
+    align-items: flex-end;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 20px;
+    padding: 20px;
+    color: rgb(47, 59, 104);
+}
+#navbar a:hover{
+    color: rgb(116, 162, 207);
+}
+.logo img{
+    position: absolute;
+    margin-top: -17px;
+    margin-left: 15px;
+}
+div{
+    font-family: 'Muli', sans-serif;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.main {
+    margin: 15px;
+    padding: 15px;
+    width: 50%;
+    font-size: 22px;
+}
+button{
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    font-size: 20px;
+    color: ivory;
+    text-decoration: none;
+    background-color: rgb(62, 97, 147);
+    border: 1px solid transparent;
+}
+
+.main h1{
+    text-align: center;
+    margin: 15px;
+    padding: 15px;
+    font-size: 35px;
+}
+.main p{
+    text-align: justify;
+}
+.cont1{
+    margin: 15px;
+    padding: 25px;
+    width: 60%;
+    background-color: rgb(87, 147, 149);
+    font-size: 20px;
+}
+.cont1 a{
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+.cont1 a:hover{
+    color: turquoise;
+}
+footer{
+    background-color: #D2EAF5;
+    height: 15px;
+    width: 100%;
+    padding-top: 15px;
+    text-align: center;
+}
